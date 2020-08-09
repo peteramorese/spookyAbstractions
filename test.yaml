@@ -1,0 +1,149 @@
+alphabet_size: 28
+num_states: 20
+start state: 0
+nodes:
+   '0_':
+      observation: 'P02'
+   '1_':
+      observation: 'P02'
+   '2_':
+      observation: 'P02'
+   '3_':
+      observation: 'P02'
+   '4_':
+      observation: 'P02'
+   '5_':
+      observation: 'P02'
+   '6_':
+      observation: 'P01'
+   '7_':
+      observation: 'P01'
+   '8_':
+      observation: 'P01'
+   '9_':
+      observation: 'P01'
+   '10_':
+      observation: 'P01'
+   '11_':
+      observation: 'P01'
+   '12_':
+      observation: 'P01'
+   '13_':
+      observation: 'P01'
+   '14_':
+      observation: 'P01'
+   '15_':
+      observation: 'P01'
+   '16_':
+      observation: 'P02'
+   '17_':
+      observation: 'P02'
+   '18_':
+      observation: 'P02'
+   '19_':
+      observation: 'P02'
+edges:
+   '0_':
+      '0_'
+         symbols:
+           - g_to_h_0_0
+   '1_':
+      '1_'
+         symbols:
+           - h_to_h_1_1
+      '2_'
+         symbols:
+           - h_to_p_1_2
+   '2_':
+      '3_'
+         symbols:
+           - h_to_h_2_3
+      '4_'
+         symbols:
+           - h_to_h_2_4
+   '3_':
+   '4_':
+      '4_'
+         symbols:
+           - h_to_h_4_4
+      '4_'
+         symbols:
+           - h_to_p_4_4
+   '5_':
+      '5_'
+         symbols:
+           - p_to_m_5_5
+   '6_':
+      '6_'
+         symbols:
+           - m_to_m_6_6
+      '7_'
+         symbols:
+           - m_to_g_6_7
+   '7_':
+      '8_'
+         symbols:
+           - m_to_m_7_8
+      '8_'
+         symbols:
+           - m_to_m_7_8
+   '8_':
+      '9_'
+         symbols:
+           - g_to_h_8_9
+   '9_':
+      '10_'
+         symbols:
+           - m_to_m_9_10
+      '10_'
+         symbols:
+           - m_to_g_9_10
+   '10_':
+      '11_'
+         symbols:
+           - h_to_h_10_11
+      '12_'
+         symbols:
+           - h_to_p_10_12
+   '11_':
+   '12_':
+      '13_'
+         symbols:
+           - h_to_h_12_13
+      '13_'
+         symbols:
+           - h_to_h_12_13
+   '13_':
+   '14_':
+      '14_'
+         symbols:
+           - h_to_h_14_14
+      '14_'
+         symbols:
+           - h_to_p_14_14
+   '15_':
+      '15_'
+         symbols:
+           - p_to_m_15_15
+   '16_':
+      '16_'
+         symbols:
+           - m_to_m_16_16
+      '17_'
+         symbols:
+           - m_to_g_16_17
+   '17_':
+      '17_'
+         symbols:
+           - m_to_m_17_17
+      '18_'
+         symbols:
+           - m_to_m_17_18
+   '18_':
+      '18_'
+         symbols:
+           - m_to_m_18_18
+      '18_'
+         symbols:
+           - m_to_g_18_18
+   '19_':

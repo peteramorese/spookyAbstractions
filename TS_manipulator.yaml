@@ -1,0 +1,117 @@
+alphabet_size: 22
+num_states: 15
+num_obs: 3
+start_state: 'g_2_0_2_'
+nodes:
+  'g_2_0_2_':
+    observation: 'P02'
+  'h_2_1_0_':
+    observation: 'P00'
+  'h_0_1_0_':
+    observation: 'P00'
+  'p_2_1_0_':
+    observation: 'P00'
+  'h_1_1_0_':
+    observation: 'P00'
+  'm_2_0_2_':
+    observation: 'P02'
+  'p_1_1_0_':
+    observation: 'P00'
+  'm_0_0_2_':
+    observation: 'P02'
+  'm_1_0_1_':
+    observation: 'P01'
+  'm_1_0_2_':
+    observation: 'P02'
+  'm_0_0_1_':
+    observation: 'P01'
+  'g_1_0_1_':
+    observation: 'P01'
+  'g_1_0_2_':
+    observation: 'P02'
+  'm_2_0_1_':
+    observation: 'P01'
+  'g_2_0_1_':
+    observation: 'P01'
+edges:
+  'g_2_0_2_':
+    'h_2_1_0_':
+      symbols:
+        - 'g_to_h_eeL2_grO1'
+  'h_2_1_0_':
+    'h_0_1_0_':
+      symbols:
+        - 'h_to_h_eeL0_grO1'
+    'p_2_1_0_':
+      symbols:
+        - 'h_to_p_eeL2_grO1'
+  'h_0_1_0_':
+    'h_1_1_0_':
+      symbols:
+        - 'h_to_h_eeL1_grO1'
+    'h_2_1_0_':
+      symbols:
+        - 'h_to_h_eeL2_grO1'
+  'p_2_1_0_':
+    'm_2_0_2_':
+      symbols:
+        - 'p_to_m_eeL2_grO0'
+  'h_1_1_0_':
+    'h_0_1_0_':
+      symbols:
+        - 'h_to_h_eeL0_grO1'
+    'p_1_1_0_':
+      symbols:
+        - 'h_to_p_eeL1_grO1'
+  'm_2_0_2_':
+    'm_0_0_2_':
+      symbols:
+        - 'm_to_m_eeL0_grO0'
+    'g_2_0_2_':
+      symbols:
+        - 'm_to_g_eeL2_grO0'
+  'p_1_1_0_':
+    'm_1_0_1_':
+      symbols:
+        - 'p_to_m_eeL1_grO0'
+  'm_0_0_2_':
+    'm_1_0_2_':
+      symbols:
+        - 'm_to_m_eeL1_grO0'
+    'm_2_0_2_':
+      symbols:
+        - 'm_to_m_eeL2_grO0'
+  'm_1_0_1_':
+    'm_0_0_1_':
+      symbols:
+        - 'm_to_m_eeL0_grO0'
+    'g_1_0_1_':
+      symbols:
+        - 'm_to_g_eeL1_grO0'
+  'm_1_0_2_':
+    'm_0_0_2_':
+      symbols:
+        - 'm_to_m_eeL0_grO0'
+    'g_1_0_2_':
+      symbols:
+        - 'm_to_g_eeL1_grO0'
+  'm_0_0_1_':
+    'm_1_0_1_':
+      symbols:
+        - 'm_to_m_eeL1_grO0'
+    'm_2_0_1_':
+      symbols:
+        - 'm_to_m_eeL2_grO0'
+  'g_1_0_1_':
+    'h_1_1_0_':
+      symbols:
+        - 'g_to_h_eeL1_grO1'
+  'g_1_0_2_':
+  'm_2_0_1_':
+    'm_0_0_1_':
+      symbols:
+        - 'm_to_m_eeL0_grO0'
+    'g_2_0_1_':
+      symbols:
+        - 'm_to_g_eeL2_grO0'
+  'g_2_0_1_':

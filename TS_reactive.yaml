@@ -1,0 +1,4326 @@
+alphabet_size: 1080
+num_states: 360
+num_obs: 120
+start_state: 'rightbase_elsewhere1_elsewhere2_elsewhere2'
+nodes:
+  'rightbase_elsewhere1_elsewhere2_elsewhere2':
+    observation: 'P0rightbase_P1elsewhere1_P2elsewhere2_'
+  'rightbase_elsewhere1_elsewhere2_rightbase':
+    observation: 'P0rightbase_P1elsewhere1_P2elsewhere2_'
+  'rightbase_elsewhere1_elsewhere2_elsewhere1':
+    observation: 'P0rightbase_P1elsewhere1_P2elsewhere2_'
+  'rightbase_elsewhere1_ee_elsewhere2':
+    observation: 'P0rightbase_P1elsewhere1_P2ee_'
+  'ee_elsewhere1_elsewhere2_rightbase':
+    observation: 'P0ee_P1elsewhere1_P2elsewhere2_'
+  'rightbase_ee_elsewhere2_elsewhere1':
+    observation: 'P0rightbase_P1ee_P2elsewhere2_'
+  'rightbase_elsewhere1_ee_leftbase':
+    observation: 'P0rightbase_P1elsewhere1_P2ee_'
+  'rightbase_elsewhere1_ee_top':
+    observation: 'P0rightbase_P1elsewhere1_P2ee_'
+  'ee_elsewhere1_elsewhere2_leftbase':
+    observation: 'P0ee_P1elsewhere1_P2elsewhere2_'
+  'ee_elsewhere1_elsewhere2_top':
+    observation: 'P0ee_P1elsewhere1_P2elsewhere2_'
+  'rightbase_ee_elsewhere2_leftbase':
+    observation: 'P0rightbase_P1ee_P2elsewhere2_'
+  'rightbase_ee_elsewhere2_top':
+    observation: 'P0rightbase_P1ee_P2elsewhere2_'
+  'rightbase_elsewhere1_leftbase_leftbase':
+    observation: 'P0rightbase_P1elsewhere1_P2leftbase_'
+  'rightbase_elsewhere1_top_top':
+    observation: 'P0rightbase_P1elsewhere1_P2top_'
+  'leftbase_elsewhere1_elsewhere2_leftbase':
+    observation: 'P0leftbase_P1elsewhere1_P2elsewhere2_'
+  'top_elsewhere1_elsewhere2_top':
+    observation: 'P0top_P1elsewhere1_P2elsewhere2_'
+  'rightbase_leftbase_elsewhere2_leftbase':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere2_'
+  'rightbase_top_elsewhere2_top':
+    observation: 'P0rightbase_P1top_P2elsewhere2_'
+  'rightbase_elsewhere1_leftbase_rightbase':
+    observation: 'P0rightbase_P1elsewhere1_P2leftbase_'
+  'rightbase_elsewhere1_leftbase_elsewhere1':
+    observation: 'P0rightbase_P1elsewhere1_P2leftbase_'
+  'rightbase_elsewhere1_top_rightbase':
+    observation: 'P0rightbase_P1elsewhere1_P2top_'
+  'rightbase_elsewhere1_top_elsewhere1':
+    observation: 'P0rightbase_P1elsewhere1_P2top_'
+  'leftbase_elsewhere1_elsewhere2_elsewhere1':
+    observation: 'P0leftbase_P1elsewhere1_P2elsewhere2_'
+  'leftbase_elsewhere1_elsewhere2_elsewhere2':
+    observation: 'P0leftbase_P1elsewhere1_P2elsewhere2_'
+  'top_elsewhere1_elsewhere2_elsewhere1':
+    observation: 'P0top_P1elsewhere1_P2elsewhere2_'
+  'top_elsewhere1_elsewhere2_elsewhere2':
+    observation: 'P0top_P1elsewhere1_P2elsewhere2_'
+  'rightbase_leftbase_elsewhere2_rightbase':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere2_'
+  'rightbase_leftbase_elsewhere2_elsewhere2':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere2_'
+  'rightbase_top_elsewhere2_rightbase':
+    observation: 'P0rightbase_P1top_P2elsewhere2_'
+  'rightbase_top_elsewhere2_elsewhere2':
+    observation: 'P0rightbase_P1top_P2elsewhere2_'
+  'ee_elsewhere1_leftbase_rightbase':
+    observation: 'P0ee_P1elsewhere1_P2leftbase_'
+  'rightbase_ee_leftbase_elsewhere1':
+    observation: 'P0rightbase_P1ee_P2leftbase_'
+  'ee_elsewhere1_top_rightbase':
+    observation: 'P0ee_P1elsewhere1_P2top_'
+  'rightbase_ee_top_elsewhere1':
+    observation: 'P0rightbase_P1ee_P2top_'
+  'leftbase_ee_elsewhere2_elsewhere1':
+    observation: 'P0leftbase_P1ee_P2elsewhere2_'
+  'leftbase_elsewhere1_ee_elsewhere2':
+    observation: 'P0leftbase_P1elsewhere1_P2ee_'
+  'top_ee_elsewhere2_elsewhere1':
+    observation: 'P0top_P1ee_P2elsewhere2_'
+  'top_elsewhere1_ee_elsewhere2':
+    observation: 'P0top_P1elsewhere1_P2ee_'
+  'ee_leftbase_elsewhere2_rightbase':
+    observation: 'P0ee_P1leftbase_P2elsewhere2_'
+  'rightbase_leftbase_ee_elsewhere2':
+    observation: 'P0rightbase_P1leftbase_P2ee_'
+  'ee_top_elsewhere2_rightbase':
+    observation: 'P0ee_P1top_P2elsewhere2_'
+  'rightbase_top_ee_elsewhere2':
+    observation: 'P0rightbase_P1top_P2ee_'
+  'ee_elsewhere1_leftbase_elsewhere2':
+    observation: 'P0ee_P1elsewhere1_P2leftbase_'
+  'ee_elsewhere1_leftbase_top':
+    observation: 'P0ee_P1elsewhere1_P2leftbase_'
+  'rightbase_ee_leftbase_elsewhere2':
+    observation: 'P0rightbase_P1ee_P2leftbase_'
+  'rightbase_ee_leftbase_top':
+    observation: 'P0rightbase_P1ee_P2leftbase_'
+  'ee_elsewhere1_top_elsewhere2':
+    observation: 'P0ee_P1elsewhere1_P2top_'
+  'ee_elsewhere1_top_leftbase':
+    observation: 'P0ee_P1elsewhere1_P2top_'
+  'rightbase_ee_top_elsewhere2':
+    observation: 'P0rightbase_P1ee_P2top_'
+  'rightbase_ee_top_leftbase':
+    observation: 'P0rightbase_P1ee_P2top_'
+  'leftbase_ee_elsewhere2_rightbase':
+    observation: 'P0leftbase_P1ee_P2elsewhere2_'
+  'leftbase_ee_elsewhere2_top':
+    observation: 'P0leftbase_P1ee_P2elsewhere2_'
+  'leftbase_elsewhere1_ee_rightbase':
+    observation: 'P0leftbase_P1elsewhere1_P2ee_'
+  'leftbase_elsewhere1_ee_top':
+    observation: 'P0leftbase_P1elsewhere1_P2ee_'
+  'top_ee_elsewhere2_rightbase':
+    observation: 'P0top_P1ee_P2elsewhere2_'
+  'top_ee_elsewhere2_leftbase':
+    observation: 'P0top_P1ee_P2elsewhere2_'
+  'top_elsewhere1_ee_rightbase':
+    observation: 'P0top_P1elsewhere1_P2ee_'
+  'top_elsewhere1_ee_leftbase':
+    observation: 'P0top_P1elsewhere1_P2ee_'
+  'ee_leftbase_elsewhere2_elsewhere1':
+    observation: 'P0ee_P1leftbase_P2elsewhere2_'
+  'ee_leftbase_elsewhere2_top':
+    observation: 'P0ee_P1leftbase_P2elsewhere2_'
+  'rightbase_leftbase_ee_elsewhere1':
+    observation: 'P0rightbase_P1leftbase_P2ee_'
+  'rightbase_leftbase_ee_top':
+    observation: 'P0rightbase_P1leftbase_P2ee_'
+  'ee_top_elsewhere2_elsewhere1':
+    observation: 'P0ee_P1top_P2elsewhere2_'
+  'ee_top_elsewhere2_leftbase':
+    observation: 'P0ee_P1top_P2elsewhere2_'
+  'rightbase_top_ee_elsewhere1':
+    observation: 'P0rightbase_P1top_P2ee_'
+  'rightbase_top_ee_leftbase':
+    observation: 'P0rightbase_P1top_P2ee_'
+  'elsewhere2_elsewhere1_leftbase_elsewhere2':
+    observation: 'P0elsewhere2_P1elsewhere1_P2leftbase_'
+  'top_elsewhere1_leftbase_top':
+    observation: 'P0top_P1elsewhere1_P2leftbase_'
+  'rightbase_elsewhere2_leftbase_elsewhere2':
+    observation: 'P0rightbase_P1elsewhere2_P2leftbase_'
+  'rightbase_top_leftbase_top':
+    observation: 'P0rightbase_P1top_P2leftbase_'
+  'elsewhere2_elsewhere1_top_elsewhere2':
+    observation: 'P0elsewhere2_P1elsewhere1_P2top_'
+  'leftbase_elsewhere1_top_leftbase':
+    observation: 'P0leftbase_P1elsewhere1_P2top_'
+  'rightbase_elsewhere2_top_elsewhere2':
+    observation: 'P0rightbase_P1elsewhere2_P2top_'
+  'rightbase_leftbase_top_leftbase':
+    observation: 'P0rightbase_P1leftbase_P2top_'
+  'leftbase_rightbase_elsewhere2_rightbase':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere2_'
+  'leftbase_top_elsewhere2_top':
+    observation: 'P0leftbase_P1top_P2elsewhere2_'
+  'leftbase_elsewhere1_rightbase_rightbase':
+    observation: 'P0leftbase_P1elsewhere1_P2rightbase_'
+  'leftbase_elsewhere1_top_top':
+    observation: 'P0leftbase_P1elsewhere1_P2top_'
+  'top_rightbase_elsewhere2_rightbase':
+    observation: 'P0top_P1rightbase_P2elsewhere2_'
+  'top_leftbase_elsewhere2_leftbase':
+    observation: 'P0top_P1leftbase_P2elsewhere2_'
+  'top_elsewhere1_rightbase_rightbase':
+    observation: 'P0top_P1elsewhere1_P2rightbase_'
+  'top_elsewhere1_leftbase_leftbase':
+    observation: 'P0top_P1elsewhere1_P2leftbase_'
+  'elsewhere1_leftbase_elsewhere2_elsewhere1':
+    observation: 'P0elsewhere1_P1leftbase_P2elsewhere2_'
+  'top_leftbase_elsewhere2_top':
+    observation: 'P0top_P1leftbase_P2elsewhere2_'
+  'rightbase_leftbase_elsewhere1_elsewhere1':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere1_'
+  'rightbase_leftbase_top_top':
+    observation: 'P0rightbase_P1leftbase_P2top_'
+  'elsewhere1_top_elsewhere2_elsewhere1':
+    observation: 'P0elsewhere1_P1top_P2elsewhere2_'
+  'leftbase_top_elsewhere2_leftbase':
+    observation: 'P0leftbase_P1top_P2elsewhere2_'
+  'rightbase_top_elsewhere1_elsewhere1':
+    observation: 'P0rightbase_P1top_P2elsewhere1_'
+  'rightbase_top_leftbase_leftbase':
+    observation: 'P0rightbase_P1top_P2leftbase_'
+  'elsewhere2_elsewhere1_leftbase_elsewhere1':
+    observation: 'P0elsewhere2_P1elsewhere1_P2leftbase_'
+  'elsewhere2_elsewhere1_leftbase_leftbase':
+    observation: 'P0elsewhere2_P1elsewhere1_P2leftbase_'
+  'top_elsewhere1_leftbase_elsewhere1':
+    observation: 'P0top_P1elsewhere1_P2leftbase_'
+  'rightbase_elsewhere2_leftbase_rightbase':
+    observation: 'P0rightbase_P1elsewhere2_P2leftbase_'
+  'rightbase_elsewhere2_leftbase_leftbase':
+    observation: 'P0rightbase_P1elsewhere2_P2leftbase_'
+  'rightbase_top_leftbase_rightbase':
+    observation: 'P0rightbase_P1top_P2leftbase_'
+  'elsewhere2_elsewhere1_top_elsewhere1':
+    observation: 'P0elsewhere2_P1elsewhere1_P2top_'
+  'elsewhere2_elsewhere1_top_top':
+    observation: 'P0elsewhere2_P1elsewhere1_P2top_'
+  'leftbase_elsewhere1_top_elsewhere1':
+    observation: 'P0leftbase_P1elsewhere1_P2top_'
+  'rightbase_elsewhere2_top_rightbase':
+    observation: 'P0rightbase_P1elsewhere2_P2top_'
+  'rightbase_elsewhere2_top_top':
+    observation: 'P0rightbase_P1elsewhere2_P2top_'
+  'rightbase_leftbase_top_rightbase':
+    observation: 'P0rightbase_P1leftbase_P2top_'
+  'leftbase_rightbase_elsewhere2_leftbase':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere2_'
+  'leftbase_rightbase_elsewhere2_elsewhere2':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere2_'
+  'leftbase_top_elsewhere2_elsewhere2':
+    observation: 'P0leftbase_P1top_P2elsewhere2_'
+  'leftbase_elsewhere1_rightbase_leftbase':
+    observation: 'P0leftbase_P1elsewhere1_P2rightbase_'
+  'leftbase_elsewhere1_rightbase_elsewhere1':
+    observation: 'P0leftbase_P1elsewhere1_P2rightbase_'
+  'top_rightbase_elsewhere2_top':
+    observation: 'P0top_P1rightbase_P2elsewhere2_'
+  'top_rightbase_elsewhere2_elsewhere2':
+    observation: 'P0top_P1rightbase_P2elsewhere2_'
+  'top_leftbase_elsewhere2_elsewhere2':
+    observation: 'P0top_P1leftbase_P2elsewhere2_'
+  'top_elsewhere1_rightbase_top':
+    observation: 'P0top_P1elsewhere1_P2rightbase_'
+  'top_elsewhere1_rightbase_elsewhere1':
+    observation: 'P0top_P1elsewhere1_P2rightbase_'
+  'elsewhere1_leftbase_elsewhere2_leftbase':
+    observation: 'P0elsewhere1_P1leftbase_P2elsewhere2_'
+  'elsewhere1_leftbase_elsewhere2_elsewhere2':
+    observation: 'P0elsewhere1_P1leftbase_P2elsewhere2_'
+  'rightbase_leftbase_elsewhere1_rightbase':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere1_'
+  'rightbase_leftbase_elsewhere1_leftbase':
+    observation: 'P0rightbase_P1leftbase_P2elsewhere1_'
+  'elsewhere1_top_elsewhere2_top':
+    observation: 'P0elsewhere1_P1top_P2elsewhere2_'
+  'elsewhere1_top_elsewhere2_elsewhere2':
+    observation: 'P0elsewhere1_P1top_P2elsewhere2_'
+  'rightbase_top_elsewhere1_rightbase':
+    observation: 'P0rightbase_P1top_P2elsewhere1_'
+  'rightbase_top_elsewhere1_top':
+    observation: 'P0rightbase_P1top_P2elsewhere1_'
+  'elsewhere2_ee_leftbase_elsewhere1':
+    observation: 'P0elsewhere2_P1ee_P2leftbase_'
+  'elsewhere2_elsewhere1_ee_leftbase':
+    observation: 'P0elsewhere2_P1elsewhere1_P2ee_'
+  'top_ee_leftbase_elsewhere1':
+    observation: 'P0top_P1ee_P2leftbase_'
+  'ee_elsewhere2_leftbase_rightbase':
+    observation: 'P0ee_P1elsewhere2_P2leftbase_'
+  'rightbase_elsewhere2_ee_leftbase':
+    observation: 'P0rightbase_P1elsewhere2_P2ee_'
+  'ee_top_leftbase_rightbase':
+    observation: 'P0ee_P1top_P2leftbase_'
+  'elsewhere2_ee_top_elsewhere1':
+    observation: 'P0elsewhere2_P1ee_P2top_'
+  'elsewhere2_elsewhere1_ee_top':
+    observation: 'P0elsewhere2_P1elsewhere1_P2ee_'
+  'leftbase_ee_top_elsewhere1':
+    observation: 'P0leftbase_P1ee_P2top_'
+  'ee_elsewhere2_top_rightbase':
+    observation: 'P0ee_P1elsewhere2_P2top_'
+  'rightbase_elsewhere2_ee_top':
+    observation: 'P0rightbase_P1elsewhere2_P2ee_'
+  'ee_leftbase_top_rightbase':
+    observation: 'P0ee_P1leftbase_P2top_'
+  'ee_rightbase_elsewhere2_leftbase':
+    observation: 'P0ee_P1rightbase_P2elsewhere2_'
+  'leftbase_rightbase_ee_elsewhere2':
+    observation: 'P0leftbase_P1rightbase_P2ee_'
+  'leftbase_top_ee_elsewhere2':
+    observation: 'P0leftbase_P1top_P2ee_'
+  'ee_elsewhere1_rightbase_leftbase':
+    observation: 'P0ee_P1elsewhere1_P2rightbase_'
+  'leftbase_ee_rightbase_elsewhere1':
+    observation: 'P0leftbase_P1ee_P2rightbase_'
+  'ee_rightbase_elsewhere2_top':
+    observation: 'P0ee_P1rightbase_P2elsewhere2_'
+  'top_rightbase_ee_elsewhere2':
+    observation: 'P0top_P1rightbase_P2ee_'
+  'top_leftbase_ee_elsewhere2':
+    observation: 'P0top_P1leftbase_P2ee_'
+  'ee_elsewhere1_rightbase_top':
+    observation: 'P0ee_P1elsewhere1_P2rightbase_'
+  'top_ee_rightbase_elsewhere1':
+    observation: 'P0top_P1ee_P2rightbase_'
+  'elsewhere1_ee_elsewhere2_leftbase':
+    observation: 'P0elsewhere1_P1ee_P2elsewhere2_'
+  'elsewhere1_leftbase_ee_elsewhere2':
+    observation: 'P0elsewhere1_P1leftbase_P2ee_'
+  'ee_leftbase_elsewhere1_rightbase':
+    observation: 'P0ee_P1leftbase_P2elsewhere1_'
+  'rightbase_ee_elsewhere1_leftbase':
+    observation: 'P0rightbase_P1ee_P2elsewhere1_'
+  'elsewhere1_ee_elsewhere2_top':
+    observation: 'P0elsewhere1_P1ee_P2elsewhere2_'
+  'elsewhere1_top_ee_elsewhere2':
+    observation: 'P0elsewhere1_P1top_P2ee_'
+  'ee_top_elsewhere1_rightbase':
+    observation: 'P0ee_P1top_P2elsewhere1_'
+  'rightbase_ee_elsewhere1_top':
+    observation: 'P0rightbase_P1ee_P2elsewhere1_'
+  'elsewhere2_ee_leftbase_rightbase':
+    observation: 'P0elsewhere2_P1ee_P2leftbase_'
+  'elsewhere2_ee_leftbase_top':
+    observation: 'P0elsewhere2_P1ee_P2leftbase_'
+  'elsewhere2_elsewhere1_ee_rightbase':
+    observation: 'P0elsewhere2_P1elsewhere1_P2ee_'
+  'top_ee_leftbase_elsewhere2':
+    observation: 'P0top_P1ee_P2leftbase_'
+  'top_ee_leftbase_rightbase':
+    observation: 'P0top_P1ee_P2leftbase_'
+  'ee_elsewhere2_leftbase_elsewhere1':
+    observation: 'P0ee_P1elsewhere2_P2leftbase_'
+  'ee_elsewhere2_leftbase_top':
+    observation: 'P0ee_P1elsewhere2_P2leftbase_'
+  'rightbase_elsewhere2_ee_elsewhere1':
+    observation: 'P0rightbase_P1elsewhere2_P2ee_'
+  'ee_top_leftbase_elsewhere1':
+    observation: 'P0ee_P1top_P2leftbase_'
+  'ee_top_leftbase_elsewhere2':
+    observation: 'P0ee_P1top_P2leftbase_'
+  'elsewhere2_ee_top_rightbase':
+    observation: 'P0elsewhere2_P1ee_P2top_'
+  'elsewhere2_ee_top_leftbase':
+    observation: 'P0elsewhere2_P1ee_P2top_'
+  'leftbase_ee_top_elsewhere2':
+    observation: 'P0leftbase_P1ee_P2top_'
+  'leftbase_ee_top_rightbase':
+    observation: 'P0leftbase_P1ee_P2top_'
+  'ee_elsewhere2_top_elsewhere1':
+    observation: 'P0ee_P1elsewhere2_P2top_'
+  'ee_elsewhere2_top_leftbase':
+    observation: 'P0ee_P1elsewhere2_P2top_'
+  'ee_leftbase_top_elsewhere1':
+    observation: 'P0ee_P1leftbase_P2top_'
+  'ee_leftbase_top_elsewhere2':
+    observation: 'P0ee_P1leftbase_P2top_'
+  'ee_rightbase_elsewhere2_elsewhere1':
+    observation: 'P0ee_P1rightbase_P2elsewhere2_'
+  'leftbase_rightbase_ee_elsewhere1':
+    observation: 'P0leftbase_P1rightbase_P2ee_'
+  'leftbase_rightbase_ee_top':
+    observation: 'P0leftbase_P1rightbase_P2ee_'
+  'leftbase_top_ee_elsewhere1':
+    observation: 'P0leftbase_P1top_P2ee_'
+  'leftbase_top_ee_rightbase':
+    observation: 'P0leftbase_P1top_P2ee_'
+  'ee_elsewhere1_rightbase_elsewhere2':
+    observation: 'P0ee_P1elsewhere1_P2rightbase_'
+  'leftbase_ee_rightbase_elsewhere2':
+    observation: 'P0leftbase_P1ee_P2rightbase_'
+  'leftbase_ee_rightbase_top':
+    observation: 'P0leftbase_P1ee_P2rightbase_'
+  'top_rightbase_ee_elsewhere1':
+    observation: 'P0top_P1rightbase_P2ee_'
+  'top_rightbase_ee_leftbase':
+    observation: 'P0top_P1rightbase_P2ee_'
+  'top_leftbase_ee_elsewhere1':
+    observation: 'P0top_P1leftbase_P2ee_'
+  'top_leftbase_ee_rightbase':
+    observation: 'P0top_P1leftbase_P2ee_'
+  'top_ee_rightbase_elsewhere2':
+    observation: 'P0top_P1ee_P2rightbase_'
+  'top_ee_rightbase_leftbase':
+    observation: 'P0top_P1ee_P2rightbase_'
+  'elsewhere1_ee_elsewhere2_rightbase':
+    observation: 'P0elsewhere1_P1ee_P2elsewhere2_'
+  'elsewhere1_leftbase_ee_rightbase':
+    observation: 'P0elsewhere1_P1leftbase_P2ee_'
+  'elsewhere1_leftbase_ee_top':
+    observation: 'P0elsewhere1_P1leftbase_P2ee_'
+  'ee_leftbase_elsewhere1_elsewhere2':
+    observation: 'P0ee_P1leftbase_P2elsewhere1_'
+  'ee_leftbase_elsewhere1_top':
+    observation: 'P0ee_P1leftbase_P2elsewhere1_'
+  'rightbase_ee_elsewhere1_elsewhere2':
+    observation: 'P0rightbase_P1ee_P2elsewhere1_'
+  'elsewhere1_top_ee_rightbase':
+    observation: 'P0elsewhere1_P1top_P2ee_'
+  'elsewhere1_top_ee_leftbase':
+    observation: 'P0elsewhere1_P1top_P2ee_'
+  'ee_top_elsewhere1_elsewhere2':
+    observation: 'P0ee_P1top_P2elsewhere1_'
+  'ee_top_elsewhere1_leftbase':
+    observation: 'P0ee_P1top_P2elsewhere1_'
+  'elsewhere2_rightbase_leftbase_rightbase':
+    observation: 'P0elsewhere2_P1rightbase_P2leftbase_'
+  'elsewhere2_top_leftbase_top':
+    observation: 'P0elsewhere2_P1top_P2leftbase_'
+  'elsewhere2_elsewhere1_rightbase_rightbase':
+    observation: 'P0elsewhere2_P1elsewhere1_P2rightbase_'
+  'top_elsewhere2_leftbase_elsewhere2':
+    observation: 'P0top_P1elsewhere2_P2leftbase_'
+  'top_rightbase_leftbase_rightbase':
+    observation: 'P0top_P1rightbase_P2leftbase_'
+  'elsewhere1_elsewhere2_leftbase_elsewhere1':
+    observation: 'P0elsewhere1_P1elsewhere2_P2leftbase_'
+  'top_elsewhere2_leftbase_top':
+    observation: 'P0top_P1elsewhere2_P2leftbase_'
+  'rightbase_elsewhere2_elsewhere1_elsewhere1':
+    observation: 'P0rightbase_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_top_leftbase_elsewhere1':
+    observation: 'P0elsewhere1_P1top_P2leftbase_'
+  'elsewhere2_top_leftbase_elsewhere2':
+    observation: 'P0elsewhere2_P1top_P2leftbase_'
+  'elsewhere2_rightbase_top_rightbase':
+    observation: 'P0elsewhere2_P1rightbase_P2top_'
+  'elsewhere2_leftbase_top_leftbase':
+    observation: 'P0elsewhere2_P1leftbase_P2top_'
+  'leftbase_elsewhere2_top_elsewhere2':
+    observation: 'P0leftbase_P1elsewhere2_P2top_'
+  'leftbase_rightbase_top_rightbase':
+    observation: 'P0leftbase_P1rightbase_P2top_'
+  'elsewhere1_elsewhere2_top_elsewhere1':
+    observation: 'P0elsewhere1_P1elsewhere2_P2top_'
+  'leftbase_elsewhere2_top_leftbase':
+    observation: 'P0leftbase_P1elsewhere2_P2top_'
+  'elsewhere1_leftbase_top_elsewhere1':
+    observation: 'P0elsewhere1_P1leftbase_P2top_'
+  'elsewhere2_leftbase_top_elsewhere2':
+    observation: 'P0elsewhere2_P1leftbase_P2top_'
+  'elsewhere1_rightbase_elsewhere2_elsewhere1':
+    observation: 'P0elsewhere1_P1rightbase_P2elsewhere2_'
+  'leftbase_rightbase_elsewhere1_elsewhere1':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere1_'
+  'leftbase_rightbase_top_top':
+    observation: 'P0leftbase_P1rightbase_P2top_'
+  'leftbase_top_elsewhere1_elsewhere1':
+    observation: 'P0leftbase_P1top_P2elsewhere1_'
+  'leftbase_top_rightbase_rightbase':
+    observation: 'P0leftbase_P1top_P2rightbase_'
+  'elsewhere2_elsewhere1_rightbase_elsewhere2':
+    observation: 'P0elsewhere2_P1elsewhere1_P2rightbase_'
+  'leftbase_elsewhere2_rightbase_elsewhere2':
+    observation: 'P0leftbase_P1elsewhere2_P2rightbase_'
+  'leftbase_top_rightbase_top':
+    observation: 'P0leftbase_P1top_P2rightbase_'
+  'top_rightbase_elsewhere1_elsewhere1':
+    observation: 'P0top_P1rightbase_P2elsewhere1_'
+  'top_rightbase_leftbase_leftbase':
+    observation: 'P0top_P1rightbase_P2leftbase_'
+  'top_leftbase_elsewhere1_elsewhere1':
+    observation: 'P0top_P1leftbase_P2elsewhere1_'
+  'top_leftbase_rightbase_rightbase':
+    observation: 'P0top_P1leftbase_P2rightbase_'
+  'top_elsewhere2_rightbase_elsewhere2':
+    observation: 'P0top_P1elsewhere2_P2rightbase_'
+  'top_leftbase_rightbase_leftbase':
+    observation: 'P0top_P1leftbase_P2rightbase_'
+  'elsewhere1_rightbase_elsewhere2_rightbase':
+    observation: 'P0elsewhere1_P1rightbase_P2elsewhere2_'
+  'elsewhere1_leftbase_rightbase_rightbase':
+    observation: 'P0elsewhere1_P1leftbase_P2rightbase_'
+  'elsewhere1_leftbase_top_top':
+    observation: 'P0elsewhere1_P1leftbase_P2top_'
+  'elsewhere2_leftbase_elsewhere1_elsewhere2':
+    observation: 'P0elsewhere2_P1leftbase_P2elsewhere1_'
+  'top_leftbase_elsewhere1_top':
+    observation: 'P0top_P1leftbase_P2elsewhere1_'
+  'rightbase_elsewhere2_elsewhere1_elsewhere2':
+    observation: 'P0rightbase_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_top_rightbase_rightbase':
+    observation: 'P0elsewhere1_P1top_P2rightbase_'
+  'elsewhere1_top_leftbase_leftbase':
+    observation: 'P0elsewhere1_P1top_P2leftbase_'
+  'elsewhere2_top_elsewhere1_elsewhere2':
+    observation: 'P0elsewhere2_P1top_P2elsewhere1_'
+  'leftbase_top_elsewhere1_leftbase':
+    observation: 'P0leftbase_P1top_P2elsewhere1_'
+  'elsewhere2_rightbase_leftbase_elsewhere2':
+    observation: 'P0elsewhere2_P1rightbase_P2leftbase_'
+  'elsewhere2_rightbase_leftbase_leftbase':
+    observation: 'P0elsewhere2_P1rightbase_P2leftbase_'
+  'elsewhere2_top_leftbase_leftbase':
+    observation: 'P0elsewhere2_P1top_P2leftbase_'
+  'elsewhere2_elsewhere1_rightbase_elsewhere1':
+    observation: 'P0elsewhere2_P1elsewhere1_P2rightbase_'
+  'top_elsewhere2_leftbase_leftbase':
+    observation: 'P0top_P1elsewhere2_P2leftbase_'
+  'top_rightbase_leftbase_top':
+    observation: 'P0top_P1rightbase_P2leftbase_'
+  'elsewhere1_elsewhere2_leftbase_elsewhere2':
+    observation: 'P0elsewhere1_P1elsewhere2_P2leftbase_'
+  'elsewhere1_elsewhere2_leftbase_leftbase':
+    observation: 'P0elsewhere1_P1elsewhere2_P2leftbase_'
+  'rightbase_elsewhere2_elsewhere1_rightbase':
+    observation: 'P0rightbase_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_top_leftbase_top':
+    observation: 'P0elsewhere1_P1top_P2leftbase_'
+  'elsewhere2_rightbase_top_elsewhere2':
+    observation: 'P0elsewhere2_P1rightbase_P2top_'
+  'elsewhere2_rightbase_top_top':
+    observation: 'P0elsewhere2_P1rightbase_P2top_'
+  'elsewhere2_leftbase_top_top':
+    observation: 'P0elsewhere2_P1leftbase_P2top_'
+  'leftbase_elsewhere2_top_top':
+    observation: 'P0leftbase_P1elsewhere2_P2top_'
+  'leftbase_rightbase_top_leftbase':
+    observation: 'P0leftbase_P1rightbase_P2top_'
+  'elsewhere1_elsewhere2_top_elsewhere2':
+    observation: 'P0elsewhere1_P1elsewhere2_P2top_'
+  'elsewhere1_elsewhere2_top_top':
+    observation: 'P0elsewhere1_P1elsewhere2_P2top_'
+  'elsewhere1_leftbase_top_leftbase':
+    observation: 'P0elsewhere1_P1leftbase_P2top_'
+  'elsewhere1_rightbase_elsewhere2_elsewhere2':
+    observation: 'P0elsewhere1_P1rightbase_P2elsewhere2_'
+  'leftbase_rightbase_elsewhere1_leftbase':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere1_'
+  'leftbase_rightbase_elsewhere1_rightbase':
+    observation: 'P0leftbase_P1rightbase_P2elsewhere1_'
+  'leftbase_top_elsewhere1_top':
+    observation: 'P0leftbase_P1top_P2elsewhere1_'
+  'leftbase_top_rightbase_leftbase':
+    observation: 'P0leftbase_P1top_P2rightbase_'
+  'leftbase_elsewhere2_rightbase_leftbase':
+    observation: 'P0leftbase_P1elsewhere2_P2rightbase_'
+  'leftbase_elsewhere2_rightbase_rightbase':
+    observation: 'P0leftbase_P1elsewhere2_P2rightbase_'
+  'top_rightbase_elsewhere1_top':
+    observation: 'P0top_P1rightbase_P2elsewhere1_'
+  'top_rightbase_elsewhere1_rightbase':
+    observation: 'P0top_P1rightbase_P2elsewhere1_'
+  'top_leftbase_elsewhere1_leftbase':
+    observation: 'P0top_P1leftbase_P2elsewhere1_'
+  'top_leftbase_rightbase_top':
+    observation: 'P0top_P1leftbase_P2rightbase_'
+  'top_elsewhere2_rightbase_top':
+    observation: 'P0top_P1elsewhere2_P2rightbase_'
+  'top_elsewhere2_rightbase_rightbase':
+    observation: 'P0top_P1elsewhere2_P2rightbase_'
+  'elsewhere1_leftbase_rightbase_elsewhere1':
+    observation: 'P0elsewhere1_P1leftbase_P2rightbase_'
+  'elsewhere1_leftbase_rightbase_leftbase':
+    observation: 'P0elsewhere1_P1leftbase_P2rightbase_'
+  'elsewhere2_leftbase_elsewhere1_leftbase':
+    observation: 'P0elsewhere2_P1leftbase_P2elsewhere1_'
+  'elsewhere2_leftbase_elsewhere1_elsewhere1':
+    observation: 'P0elsewhere2_P1leftbase_P2elsewhere1_'
+  'elsewhere1_top_rightbase_elsewhere1':
+    observation: 'P0elsewhere1_P1top_P2rightbase_'
+  'elsewhere1_top_rightbase_top':
+    observation: 'P0elsewhere1_P1top_P2rightbase_'
+  'elsewhere2_top_elsewhere1_top':
+    observation: 'P0elsewhere2_P1top_P2elsewhere1_'
+  'elsewhere2_top_elsewhere1_elsewhere1':
+    observation: 'P0elsewhere2_P1top_P2elsewhere1_'
+  'ee_rightbase_leftbase_elsewhere2':
+    observation: 'P0ee_P1rightbase_P2leftbase_'
+  'elsewhere2_rightbase_ee_leftbase':
+    observation: 'P0elsewhere2_P1rightbase_P2ee_'
+  'elsewhere2_top_ee_leftbase':
+    observation: 'P0elsewhere2_P1top_P2ee_'
+  'elsewhere2_ee_rightbase_elsewhere1':
+    observation: 'P0elsewhere2_P1ee_P2rightbase_'
+  'top_elsewhere2_ee_leftbase':
+    observation: 'P0top_P1elsewhere2_P2ee_'
+  'ee_rightbase_leftbase_top':
+    observation: 'P0ee_P1rightbase_P2leftbase_'
+  'elsewhere1_ee_leftbase_elsewhere2':
+    observation: 'P0elsewhere1_P1ee_P2leftbase_'
+  'elsewhere1_elsewhere2_ee_leftbase':
+    observation: 'P0elsewhere1_P1elsewhere2_P2ee_'
+  'ee_elsewhere2_elsewhere1_rightbase':
+    observation: 'P0ee_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_ee_leftbase_top':
+    observation: 'P0elsewhere1_P1ee_P2leftbase_'
+  'ee_rightbase_top_elsewhere2':
+    observation: 'P0ee_P1rightbase_P2top_'
+  'elsewhere2_rightbase_ee_top':
+    observation: 'P0elsewhere2_P1rightbase_P2ee_'
+  'elsewhere2_leftbase_ee_top':
+    observation: 'P0elsewhere2_P1leftbase_P2ee_'
+  'leftbase_elsewhere2_ee_top':
+    observation: 'P0leftbase_P1elsewhere2_P2ee_'
+  'ee_rightbase_top_leftbase':
+    observation: 'P0ee_P1rightbase_P2top_'
+  'elsewhere1_ee_top_elsewhere2':
+    observation: 'P0elsewhere1_P1ee_P2top_'
+  'elsewhere1_elsewhere2_ee_top':
+    observation: 'P0elsewhere1_P1elsewhere2_P2ee_'
+  'elsewhere1_ee_top_leftbase':
+    observation: 'P0elsewhere1_P1ee_P2top_'
+  'elsewhere1_rightbase_ee_elsewhere2':
+    observation: 'P0elsewhere1_P1rightbase_P2ee_'
+  'ee_rightbase_elsewhere1_leftbase':
+    observation: 'P0ee_P1rightbase_P2elsewhere1_'
+  'leftbase_ee_elsewhere1_rightbase':
+    observation: 'P0leftbase_P1ee_P2elsewhere1_'
+  'leftbase_ee_elsewhere1_top':
+    observation: 'P0leftbase_P1ee_P2elsewhere1_'
+  'ee_top_rightbase_leftbase':
+    observation: 'P0ee_P1top_P2rightbase_'
+  'ee_elsewhere2_rightbase_leftbase':
+    observation: 'P0ee_P1elsewhere2_P2rightbase_'
+  'leftbase_elsewhere2_ee_rightbase':
+    observation: 'P0leftbase_P1elsewhere2_P2ee_'
+  'ee_rightbase_elsewhere1_top':
+    observation: 'P0ee_P1rightbase_P2elsewhere1_'
+  'top_ee_elsewhere1_rightbase':
+    observation: 'P0top_P1ee_P2elsewhere1_'
+  'top_ee_elsewhere1_leftbase':
+    observation: 'P0top_P1ee_P2elsewhere1_'
+  'ee_leftbase_rightbase_top':
+    observation: 'P0ee_P1leftbase_P2rightbase_'
+  'ee_elsewhere2_rightbase_top':
+    observation: 'P0ee_P1elsewhere2_P2rightbase_'
+  'top_elsewhere2_ee_rightbase':
+    observation: 'P0top_P1elsewhere2_P2ee_'
+  'ee_leftbase_rightbase_elsewhere1':
+    observation: 'P0ee_P1leftbase_P2rightbase_'
+  'elsewhere1_ee_rightbase_leftbase':
+    observation: 'P0elsewhere1_P1ee_P2rightbase_'
+  'elsewhere2_ee_elsewhere1_leftbase':
+    observation: 'P0elsewhere2_P1ee_P2elsewhere1_'
+  'elsewhere2_leftbase_ee_elsewhere1':
+    observation: 'P0elsewhere2_P1leftbase_P2ee_'
+  'ee_top_rightbase_elsewhere1':
+    observation: 'P0ee_P1top_P2rightbase_'
+  'elsewhere1_ee_rightbase_top':
+    observation: 'P0elsewhere1_P1ee_P2rightbase_'
+  'elsewhere2_ee_elsewhere1_top':
+    observation: 'P0elsewhere2_P1ee_P2elsewhere1_'
+  'elsewhere2_top_ee_elsewhere1':
+    observation: 'P0elsewhere2_P1top_P2ee_'
+  'ee_rightbase_leftbase_elsewhere1':
+    observation: 'P0ee_P1rightbase_P2leftbase_'
+  'elsewhere2_rightbase_ee_elsewhere1':
+    observation: 'P0elsewhere2_P1rightbase_P2ee_'
+  'elsewhere2_top_ee_rightbase':
+    observation: 'P0elsewhere2_P1top_P2ee_'
+  'elsewhere2_ee_rightbase_leftbase':
+    observation: 'P0elsewhere2_P1ee_P2rightbase_'
+  'elsewhere2_ee_rightbase_top':
+    observation: 'P0elsewhere2_P1ee_P2rightbase_'
+  'top_elsewhere2_ee_elsewhere1':
+    observation: 'P0top_P1elsewhere2_P2ee_'
+  'elsewhere1_ee_leftbase_rightbase':
+    observation: 'P0elsewhere1_P1ee_P2leftbase_'
+  'elsewhere1_elsewhere2_ee_rightbase':
+    observation: 'P0elsewhere1_P1elsewhere2_P2ee_'
+  'ee_elsewhere2_elsewhere1_leftbase':
+    observation: 'P0ee_P1elsewhere2_P2elsewhere1_'
+  'ee_elsewhere2_elsewhere1_top':
+    observation: 'P0ee_P1elsewhere2_P2elsewhere1_'
+  'ee_rightbase_top_elsewhere1':
+    observation: 'P0ee_P1rightbase_P2top_'
+  'elsewhere2_leftbase_ee_rightbase':
+    observation: 'P0elsewhere2_P1leftbase_P2ee_'
+  'leftbase_elsewhere2_ee_elsewhere1':
+    observation: 'P0leftbase_P1elsewhere2_P2ee_'
+  'elsewhere1_ee_top_rightbase':
+    observation: 'P0elsewhere1_P1ee_P2top_'
+  'elsewhere1_rightbase_ee_leftbase':
+    observation: 'P0elsewhere1_P1rightbase_P2ee_'
+  'elsewhere1_rightbase_ee_top':
+    observation: 'P0elsewhere1_P1rightbase_P2ee_'
+  'ee_rightbase_elsewhere1_elsewhere2':
+    observation: 'P0ee_P1rightbase_P2elsewhere1_'
+  'leftbase_ee_elsewhere1_elsewhere2':
+    observation: 'P0leftbase_P1ee_P2elsewhere1_'
+  'ee_top_rightbase_elsewhere2':
+    observation: 'P0ee_P1top_P2rightbase_'
+  'ee_elsewhere2_rightbase_elsewhere1':
+    observation: 'P0ee_P1elsewhere2_P2rightbase_'
+  'top_ee_elsewhere1_elsewhere2':
+    observation: 'P0top_P1ee_P2elsewhere1_'
+  'ee_leftbase_rightbase_elsewhere2':
+    observation: 'P0ee_P1leftbase_P2rightbase_'
+  'elsewhere1_ee_rightbase_elsewhere2':
+    observation: 'P0elsewhere1_P1ee_P2rightbase_'
+  'elsewhere2_ee_elsewhere1_rightbase':
+    observation: 'P0elsewhere2_P1ee_P2elsewhere1_'
+  'elsewhere1_rightbase_leftbase_elsewhere1':
+    observation: 'P0elsewhere1_P1rightbase_P2leftbase_'
+  'elsewhere2_rightbase_elsewhere1_elsewhere1':
+    observation: 'P0elsewhere2_P1rightbase_P2elsewhere1_'
+  'elsewhere2_top_rightbase_rightbase':
+    observation: 'P0elsewhere2_P1top_P2rightbase_'
+  'elsewhere2_leftbase_rightbase_leftbase':
+    observation: 'P0elsewhere2_P1leftbase_P2rightbase_'
+  'elsewhere2_top_rightbase_top':
+    observation: 'P0elsewhere2_P1top_P2rightbase_'
+  'top_elsewhere2_elsewhere1_elsewhere1':
+    observation: 'P0top_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_rightbase_leftbase_rightbase':
+    observation: 'P0elsewhere1_P1rightbase_P2leftbase_'
+  'elsewhere1_elsewhere2_rightbase_rightbase':
+    observation: 'P0elsewhere1_P1elsewhere2_P2rightbase_'
+  'leftbase_elsewhere2_elsewhere1_leftbase':
+    observation: 'P0leftbase_P1elsewhere2_P2elsewhere1_'
+  'top_elsewhere2_elsewhere1_top':
+    observation: 'P0top_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_rightbase_top_elsewhere1':
+    observation: 'P0elsewhere1_P1rightbase_P2top_'
+  'elsewhere2_leftbase_rightbase_rightbase':
+    observation: 'P0elsewhere2_P1leftbase_P2rightbase_'
+  'leftbase_elsewhere2_elsewhere1_elsewhere1':
+    observation: 'P0leftbase_P1elsewhere2_P2elsewhere1_'
+  'elsewhere1_rightbase_top_rightbase':
+    observation: 'P0elsewhere1_P1rightbase_P2top_'
+  'elsewhere1_rightbase_leftbase_leftbase':
+    observation: 'P0elsewhere1_P1rightbase_P2leftbase_'
+  'elsewhere1_rightbase_top_top':
+    observation: 'P0elsewhere1_P1rightbase_P2top_'
+  'elsewhere2_rightbase_elsewhere1_elsewhere2':
+    observation: 'P0elsewhere2_P1rightbase_P2elsewhere1_'
+  'leftbase_elsewhere2_elsewhere1_elsewhere2':
+    observation: 'P0leftbase_P1elsewhere2_P2elsewhere1_'
+  'elsewhere2_top_rightbase_elsewhere2':
+    observation: 'P0elsewhere2_P1top_P2rightbase_'
+  'elsewhere1_elsewhere2_rightbase_elsewhere1':
+    observation: 'P0elsewhere1_P1elsewhere2_P2rightbase_'
+  'top_elsewhere2_elsewhere1_elsewhere2':
+    observation: 'P0top_P1elsewhere2_P2elsewhere1_'
+  'elsewhere2_leftbase_rightbase_elsewhere2':
+    observation: 'P0elsewhere2_P1leftbase_P2rightbase_'
+  'elsewhere1_elsewhere2_rightbase_elsewhere2':
+    observation: 'P0elsewhere1_P1elsewhere2_P2rightbase_'
+  'elsewhere2_rightbase_elsewhere1_rightbase':
+    observation: 'P0elsewhere2_P1rightbase_P2elsewhere1_'
+edges:
+  'rightbase_elsewhere1_elsewhere2_elsewhere2':
+    'rightbase_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_elsewhere2_rightbase':
+    'rightbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_elsewhere2_elsewhere1':
+    'rightbase_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_ee_elsewhere2':
+    'rightbase_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_elsewhere2_rightbase':
+    'ee_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere2_elsewhere1':
+    'rightbase_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere1_ee_leftbase':
+    'rightbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere1_ee_top':
+    'rightbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_top_top':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_elsewhere2_leftbase':
+    'ee_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_elsewhere2_top':
+    'ee_elsewhere1_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere2_leftbase':
+    'rightbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere2_top':
+    'rightbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere1_leftbase_leftbase':
+    'rightbase_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_ee_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_top_top':
+    'rightbase_elsewhere1_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_ee_top':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_elsewhere2_leftbase':
+    'leftbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_elsewhere2_top':
+    'top_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere2_leftbase':
+    'rightbase_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere2_top':
+    'rightbase_top_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_leftbase_rightbase':
+    'rightbase_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_leftbase_elsewhere1':
+    'rightbase_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_ee_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_top_rightbase':
+    'rightbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_top_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere1_top_elsewhere1':
+    'rightbase_elsewhere1_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'rightbase_ee_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_elsewhere2_elsewhere1':
+    'leftbase_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_elsewhere2_elsewhere2':
+    'leftbase_elsewhere1_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_elsewhere2_elsewhere1':
+    'top_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_elsewhere2_elsewhere2':
+    'top_elsewhere1_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere2_rightbase':
+    'rightbase_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere2_elsewhere2':
+    'rightbase_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere2_rightbase':
+    'rightbase_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere2_elsewhere2':
+    'rightbase_top_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'ee_elsewhere1_leftbase_rightbase':
+    'ee_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_leftbase_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_leftbase_elsewhere1':
+    'rightbase_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_top_rightbase':
+    'ee_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_top_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_top_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_top_elsewhere1':
+    'rightbase_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere2_elsewhere1':
+    'leftbase_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere1_ee_elsewhere2':
+    'leftbase_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere2_elsewhere1':
+    'top_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'top_elsewhere1_ee_elsewhere2':
+    'top_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere2_rightbase':
+    'ee_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_leftbase_ee_elsewhere2':
+    'rightbase_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere2_rightbase':
+    'ee_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_top_ee_elsewhere2':
+    'rightbase_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_leftbase_elsewhere2':
+    'ee_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_leftbase_top':
+    'ee_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_leftbase_top':
+      symbols:
+        - 'drop'
+  'rightbase_ee_leftbase_elsewhere2':
+    'rightbase_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'rightbase_ee_leftbase_top':
+    'rightbase_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_top_leftbase_top':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_top_elsewhere2':
+    'ee_elsewhere1_top_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_top_leftbase':
+    'ee_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_top_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_top_leftbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_top_elsewhere2':
+    'rightbase_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'rightbase_ee_top_leftbase':
+    'rightbase_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_top_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere2_rightbase':
+    'leftbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere2_top':
+    'leftbase_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere1_ee_rightbase':
+    'leftbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere1_ee_top':
+    'leftbase_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_top_top':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere2_rightbase':
+    'top_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere2_leftbase':
+    'top_ee_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'top_elsewhere1_ee_rightbase':
+    'top_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'top_elsewhere1_ee_leftbase':
+    'top_elsewhere1_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere2_elsewhere1':
+    'ee_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere2_top':
+    'ee_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'rightbase_leftbase_ee_elsewhere1':
+    'rightbase_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'rightbase_leftbase_ee_top':
+    'rightbase_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_top_top':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere2_elsewhere1':
+    'ee_top_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere2_leftbase':
+    'ee_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'rightbase_top_ee_elsewhere1':
+    'rightbase_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'rightbase_top_ee_leftbase':
+    'rightbase_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_top_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_elsewhere1_leftbase_elsewhere2':
+    'elsewhere2_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_leftbase_top':
+    'top_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_leftbase_top':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_leftbase_elsewhere2':
+    'rightbase_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_ee_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_top_leftbase_top':
+    'rightbase_top_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_ee_leftbase_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_top_elsewhere2':
+    'elsewhere2_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_top_leftbase':
+    'leftbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_top_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_top_elsewhere2':
+    'rightbase_elsewhere2_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'rightbase_ee_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_top_leftbase':
+    'rightbase_leftbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'rightbase_ee_top_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere2_rightbase':
+    'leftbase_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere2_top':
+    'leftbase_top_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_rightbase_rightbase':
+    'leftbase_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_ee_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_top_top':
+    'leftbase_elsewhere1_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_ee_top':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere2_rightbase':
+    'top_rightbase_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere2_leftbase':
+    'top_leftbase_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_rightbase_rightbase':
+    'top_elsewhere1_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_ee_rightbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_leftbase_leftbase':
+    'top_elsewhere1_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_elsewhere2_elsewhere1':
+    'elsewhere1_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere2_top':
+    'top_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere1_elsewhere1':
+    'rightbase_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_top_top':
+    'rightbase_leftbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_ee_top':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_elsewhere2_elsewhere1':
+    'elsewhere1_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere2_leftbase':
+    'leftbase_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere1_elsewhere1':
+    'rightbase_top_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_top_leftbase_leftbase':
+    'rightbase_top_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_leftbase_elsewhere1':
+    'elsewhere2_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_leftbase_leftbase':
+    'elsewhere2_elsewhere1_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_ee_leftbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_leftbase_elsewhere1':
+    'top_elsewhere1_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'top_ee_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_leftbase_rightbase':
+    'rightbase_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_leftbase_leftbase':
+    'rightbase_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_ee_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_top_leftbase_rightbase':
+    'rightbase_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_top_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_top_elsewhere1':
+    'elsewhere2_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_top_top':
+    'elsewhere2_elsewhere1_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_ee_top':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_top_elsewhere1':
+    'leftbase_elsewhere1_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_top_top':
+      symbols:
+        - 'transit'
+    'leftbase_ee_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_top_rightbase':
+    'rightbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_top_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_top_top':
+    'rightbase_elsewhere2_top_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_ee_top':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_top_rightbase':
+    'rightbase_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_leftbase_top_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere2_leftbase':
+    'leftbase_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere2_elsewhere2':
+    'leftbase_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere2_elsewhere2':
+    'leftbase_top_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_rightbase_leftbase':
+    'leftbase_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere1_rightbase_elsewhere1':
+    'leftbase_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_ee_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere2_top':
+    'top_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere2_elsewhere2':
+    'top_rightbase_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere2_elsewhere2':
+    'top_leftbase_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_rightbase_top':
+    'top_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_rightbase_top':
+      symbols:
+        - 'grab'
+  'top_elsewhere1_rightbase_elsewhere1':
+    'top_elsewhere1_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'top_ee_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_elsewhere2_leftbase':
+    'elsewhere1_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_elsewhere2_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_elsewhere2_elsewhere2':
+    'elsewhere1_leftbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere1_rightbase':
+    'rightbase_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_leftbase_elsewhere1_leftbase':
+    'rightbase_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_elsewhere2_top':
+    'elsewhere1_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_elsewhere2_top':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_elsewhere2_elsewhere2':
+    'elsewhere1_top_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_elsewhere2_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere1_rightbase':
+    'rightbase_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
+  'rightbase_top_elsewhere1_top':
+    'rightbase_top_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_ee_leftbase_elsewhere1':
+    'elsewhere2_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere2_elsewhere1_ee_leftbase':
+    'elsewhere2_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'top_ee_leftbase_elsewhere1':
+    'top_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_leftbase_rightbase':
+    'ee_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_leftbase_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere2_ee_leftbase':
+    'rightbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_top_leftbase_rightbase':
+    'ee_top_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_top_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_top_elsewhere1':
+    'elsewhere2_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere2_elsewhere1_ee_top':
+    'elsewhere2_elsewhere1_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_top_top':
+      symbols:
+        - 'drop'
+  'leftbase_ee_top_elsewhere1':
+    'leftbase_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_top_rightbase':
+    'ee_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_top_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_top_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere2_ee_top':
+    'rightbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_top_top':
+      symbols:
+        - 'drop'
+  'ee_leftbase_top_rightbase':
+    'ee_leftbase_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_top_rightbase':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere2_leftbase':
+    'ee_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_rightbase_ee_elsewhere2':
+    'leftbase_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'leftbase_top_ee_elsewhere2':
+    'leftbase_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_rightbase_leftbase':
+    'ee_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_rightbase_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_rightbase_elsewhere1':
+    'leftbase_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere2_top':
+    'ee_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'top_rightbase_ee_elsewhere2':
+    'top_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'top_leftbase_ee_elsewhere2':
+    'top_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_rightbase_top':
+    'ee_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_rightbase_top':
+      symbols:
+        - 'drop'
+  'top_ee_rightbase_elsewhere1':
+    'top_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_elsewhere2_leftbase':
+    'elsewhere1_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_elsewhere2_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_leftbase_ee_elsewhere2':
+    'elsewhere1_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere1_rightbase':
+    'ee_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere1_leftbase':
+    'rightbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'rightbase_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_elsewhere2_top':
+    'elsewhere1_ee_elsewhere2_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_elsewhere2_top':
+      symbols:
+        - 'drop'
+  'elsewhere1_top_ee_elsewhere2':
+    'elsewhere1_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere1_rightbase':
+    'ee_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere1_top':
+    'rightbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_top_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_leftbase_rightbase':
+    'elsewhere2_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_leftbase_top':
+    'elsewhere2_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_leftbase_top':
+      symbols:
+        - 'drop'
+  'elsewhere2_elsewhere1_ee_rightbase':
+    'elsewhere2_elsewhere1_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'top_ee_leftbase_elsewhere2':
+    'top_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'top_ee_leftbase_rightbase':
+    'top_ee_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_rightbase_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_leftbase_elsewhere1':
+    'ee_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_leftbase_top':
+    'ee_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_leftbase_top':
+      symbols:
+        - 'drop'
+  'rightbase_elsewhere2_ee_elsewhere1':
+    'rightbase_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_top_leftbase_elsewhere1':
+    'ee_top_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_top_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_top_leftbase_elsewhere2':
+    'ee_top_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_top_rightbase':
+    'elsewhere2_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_top_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_top_leftbase':
+    'elsewhere2_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_top_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_top_elsewhere2':
+    'leftbase_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'leftbase_ee_top_rightbase':
+    'leftbase_ee_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_top_rightbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_top_elsewhere1':
+    'ee_elsewhere2_top_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_top_leftbase':
+    'ee_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_top_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_top_leftbase':
+      symbols:
+        - 'drop'
+  'ee_leftbase_top_elsewhere1':
+    'ee_leftbase_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_leftbase_top_elsewhere2':
+    'ee_leftbase_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere2_elsewhere1':
+    'ee_rightbase_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'drop'
+  'leftbase_rightbase_ee_elsewhere1':
+    'leftbase_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'leftbase_rightbase_ee_top':
+    'leftbase_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_top_top':
+      symbols:
+        - 'drop'
+  'leftbase_top_ee_elsewhere1':
+    'leftbase_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'leftbase_top_ee_rightbase':
+    'leftbase_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_top_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere1_rightbase_elsewhere2':
+    'ee_elsewhere1_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere1_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'leftbase_ee_rightbase_elsewhere2':
+    'leftbase_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'leftbase_ee_rightbase_top':
+    'leftbase_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_top_rightbase_top':
+      symbols:
+        - 'drop'
+  'top_rightbase_ee_elsewhere1':
+    'top_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'top_rightbase_ee_leftbase':
+    'top_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_rightbase_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'top_leftbase_ee_elsewhere1':
+    'top_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'top_leftbase_ee_rightbase':
+    'top_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_leftbase_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'top_ee_rightbase_elsewhere2':
+    'top_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'top_ee_rightbase_leftbase':
+    'top_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_leftbase_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_elsewhere2_rightbase':
+    'elsewhere1_ee_elsewhere2_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_elsewhere2_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_leftbase_ee_rightbase':
+    'elsewhere1_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_leftbase_ee_top':
+    'elsewhere1_leftbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_top_top':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere1_elsewhere2':
+    'ee_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_leftbase_elsewhere1_top':
+    'ee_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'rightbase_ee_elsewhere1_elsewhere2':
+    'rightbase_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'rightbase_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere1_top_ee_rightbase':
+    'elsewhere1_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_top_ee_leftbase':
+    'elsewhere1_top_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere1_elsewhere2':
+    'ee_top_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_top_elsewhere1_leftbase':
+    'ee_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_top_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_rightbase_leftbase_rightbase':
+    'elsewhere2_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_leftbase_top':
+    'elsewhere2_top_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_leftbase_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_rightbase_rightbase':
+    'elsewhere2_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_ee_rightbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_leftbase_elsewhere2':
+    'top_elsewhere2_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'top_ee_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_rightbase_leftbase_rightbase':
+    'top_rightbase_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'top_ee_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_leftbase_elsewhere1':
+    'elsewhere1_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_leftbase_top':
+    'top_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_leftbase_top':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_elsewhere1_elsewhere1':
+    'rightbase_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_leftbase_elsewhere1':
+    'elsewhere1_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_top_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_leftbase_elsewhere2':
+    'elsewhere2_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_top_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_top_rightbase':
+    'elsewhere2_rightbase_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_top_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_top_leftbase':
+    'elsewhere2_leftbase_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_top_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_top_elsewhere2':
+    'leftbase_elsewhere2_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'leftbase_ee_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_top_rightbase':
+    'leftbase_rightbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'leftbase_ee_top_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_top_elsewhere1':
+    'elsewhere1_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_top_leftbase':
+    'leftbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_top_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_top_elsewhere1':
+    'elsewhere1_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_leftbase_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_top_elsewhere2':
+    'elsewhere2_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_leftbase_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_elsewhere2_elsewhere1':
+    'elsewhere1_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere1_elsewhere1':
+    'leftbase_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_top_top':
+    'leftbase_rightbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_ee_top':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere1_elsewhere1':
+    'leftbase_top_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'leftbase_top_rightbase_rightbase':
+    'leftbase_top_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_ee_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_rightbase_elsewhere2':
+    'elsewhere2_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_rightbase_elsewhere2':
+    'leftbase_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_ee_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_top_rightbase_top':
+    'leftbase_top_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_ee_rightbase_top':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere1_elsewhere1':
+    'top_rightbase_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_rightbase_leftbase_leftbase':
+    'top_rightbase_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_ee_leftbase':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere1_elsewhere1':
+    'top_leftbase_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_leftbase_rightbase_rightbase':
+    'top_leftbase_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_ee_rightbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_rightbase_elsewhere2':
+    'top_elsewhere2_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'top_ee_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_leftbase_rightbase_leftbase':
+    'top_leftbase_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'top_ee_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_elsewhere2_rightbase':
+    'elsewhere1_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_elsewhere2_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_rightbase_rightbase':
+    'elsewhere1_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_ee_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_top_top':
+    'elsewhere1_leftbase_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_ee_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_elsewhere1_elsewhere2':
+    'elsewhere2_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere1_top':
+    'top_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_leftbase_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_elsewhere1_elsewhere2':
+    'rightbase_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'rightbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_rightbase_rightbase':
+    'elsewhere1_top_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_ee_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_leftbase_leftbase':
+    'elsewhere1_top_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_elsewhere1_elsewhere2':
+    'elsewhere2_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere1_leftbase':
+    'leftbase_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_top_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_leftbase_elsewhere2':
+    'elsewhere2_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_leftbase_leftbase':
+    'elsewhere2_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_leftbase_leftbase':
+    'elsewhere2_top_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_leftbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_elsewhere1_rightbase_elsewhere1':
+    'elsewhere2_elsewhere1_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_elsewhere1_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_leftbase_leftbase':
+    'top_elsewhere2_leftbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_ee_leftbase':
+      symbols:
+        - 'grab'
+  'top_rightbase_leftbase_top':
+    'top_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_rightbase_leftbase_top':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_leftbase_elsewhere2':
+    'elsewhere1_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_leftbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_leftbase_leftbase':
+    'elsewhere1_elsewhere2_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_ee_leftbase':
+      symbols:
+        - 'grab'
+  'rightbase_elsewhere2_elsewhere1_rightbase':
+    'rightbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'rightbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_leftbase_top':
+    'elsewhere1_top_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_leftbase_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_top_elsewhere2':
+    'elsewhere2_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_rightbase_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_top_top':
+    'elsewhere2_rightbase_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_ee_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_top_top':
+    'elsewhere2_leftbase_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_top_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_ee_top':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_top_top':
+    'leftbase_elsewhere2_top_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_ee_top':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_top_leftbase':
+    'leftbase_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_rightbase_top_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_top_elsewhere2':
+    'elsewhere1_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_top_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_top_top':
+    'elsewhere1_elsewhere2_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_ee_top':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_top_leftbase':
+    'elsewhere1_leftbase_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_top_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_elsewhere2_elsewhere2':
+    'elsewhere1_rightbase_elsewhere2_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_elsewhere2_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_ee_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere1_leftbase':
+    'leftbase_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_rightbase_elsewhere1_rightbase':
+    'leftbase_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_top_elsewhere1_top':
+    'leftbase_top_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'leftbase_top_rightbase_leftbase':
+    'leftbase_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'leftbase_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_top_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_rightbase_leftbase':
+    'leftbase_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_rightbase_rightbase':
+    'leftbase_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_ee_rightbase':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere1_top':
+    'top_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'top_rightbase_elsewhere1_rightbase':
+    'top_rightbase_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
+  'top_leftbase_elsewhere1_leftbase':
+    'top_leftbase_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'top_leftbase_rightbase_top':
+    'top_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'top_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_leftbase_rightbase_top':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_rightbase_top':
+    'top_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_rightbase_top':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_rightbase_rightbase':
+    'top_elsewhere2_rightbase_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_ee_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_rightbase_elsewhere1':
+    'elsewhere1_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_leftbase_rightbase_leftbase':
+    'elsewhere1_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_elsewhere1_leftbase':
+    'elsewhere2_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_elsewhere1_elsewhere1':
+    'elsewhere2_leftbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_rightbase_elsewhere1':
+    'elsewhere1_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_top_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_top_rightbase_top':
+    'elsewhere1_top_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_rightbase_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_elsewhere1_top':
+    'elsewhere2_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_elsewhere1_elsewhere1':
+    'elsewhere2_top_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'ee_rightbase_leftbase_elsewhere2':
+    'ee_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere2_rightbase_ee_leftbase':
+    'elsewhere2_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_top_ee_leftbase':
+    'elsewhere2_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_rightbase_elsewhere1':
+    'elsewhere2_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_elsewhere1_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'top_elsewhere2_ee_leftbase':
+    'top_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_rightbase_leftbase_top':
+    'ee_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_rightbase_leftbase_top':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_leftbase_elsewhere2':
+    'elsewhere1_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_leftbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere1_elsewhere2_ee_leftbase':
+    'elsewhere1_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_elsewhere1_rightbase':
+    'ee_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'rightbase_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_leftbase_top':
+    'elsewhere1_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_leftbase_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_leftbase_top':
+      symbols:
+        - 'drop'
+  'ee_rightbase_top_elsewhere2':
+    'ee_rightbase_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere2_rightbase_ee_top':
+    'elsewhere2_rightbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_top_top':
+      symbols:
+        - 'drop'
+  'elsewhere2_leftbase_ee_top':
+    'elsewhere2_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_top_top':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere2_ee_top':
+    'leftbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_top_top':
+      symbols:
+        - 'drop'
+  'ee_rightbase_top_leftbase':
+    'ee_rightbase_top_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_top_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_top_elsewhere2':
+    'elsewhere1_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_top_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere1_elsewhere2_ee_top':
+    'elsewhere1_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_top_top':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_top_leftbase':
+    'elsewhere1_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_top_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_top_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_rightbase_ee_elsewhere2':
+    'elsewhere1_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_elsewhere2_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere1_leftbase':
+    'ee_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere1_rightbase':
+    'leftbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'leftbase_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere1_top':
+    'leftbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_top_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'ee_top_rightbase_leftbase':
+    'ee_top_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'leftbase_top_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_rightbase_leftbase':
+    'ee_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_rightbase_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere2_ee_rightbase':
+    'leftbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere1_top':
+    'ee_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere1_rightbase':
+    'top_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'top_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere1_leftbase':
+    'top_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'top_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'ee_leftbase_rightbase_top':
+    'ee_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'top_leftbase_rightbase_top':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_rightbase_top':
+    'ee_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_rightbase_top':
+      symbols:
+        - 'drop'
+  'top_elsewhere2_ee_rightbase':
+    'top_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'ee_leftbase_rightbase_elsewhere1':
+    'ee_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_rightbase_leftbase':
+    'elsewhere1_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_leftbase_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_elsewhere1_leftbase':
+    'elsewhere2_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_leftbase_ee_elsewhere1':
+    'elsewhere2_leftbase_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_top_rightbase_elsewhere1':
+    'ee_top_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_top_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_rightbase_top':
+    'elsewhere1_ee_rightbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_top_rightbase_top':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_elsewhere1_top':
+    'elsewhere2_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'elsewhere2_top_ee_elsewhere1':
+    'elsewhere2_top_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'ee_rightbase_leftbase_elsewhere1':
+    'ee_rightbase_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere2_rightbase_ee_elsewhere1':
+    'elsewhere2_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere2_top_ee_rightbase':
+    'elsewhere2_top_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_rightbase_leftbase':
+    'elsewhere2_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_rightbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_rightbase_top':
+    'elsewhere2_ee_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_rightbase_top':
+      symbols:
+        - 'drop'
+  'top_elsewhere2_ee_elsewhere1':
+    'top_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_leftbase_rightbase':
+    'elsewhere1_ee_leftbase_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_leftbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_leftbase_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_elsewhere2_ee_rightbase':
+    'elsewhere1_elsewhere2_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_elsewhere1_leftbase':
+    'ee_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_elsewhere1_top':
+    'ee_elsewhere2_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'drop'
+  'ee_rightbase_top_elsewhere1':
+    'ee_rightbase_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_top_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere2_leftbase_ee_rightbase':
+    'elsewhere2_leftbase_ee_elsewhere1':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_rightbase_rightbase':
+      symbols:
+        - 'drop'
+  'leftbase_elsewhere2_ee_elsewhere1':
+    'leftbase_elsewhere2_ee_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_ee_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_top_rightbase':
+    'elsewhere1_ee_top_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_top_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_top_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_rightbase_ee_leftbase':
+    'elsewhere1_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_ee_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_leftbase_leftbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_rightbase_ee_top':
+    'elsewhere1_rightbase_ee_elsewhere2':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_ee_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_rightbase_top_top':
+      symbols:
+        - 'drop'
+  'ee_rightbase_elsewhere1_elsewhere2':
+    'ee_rightbase_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_rightbase_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'leftbase_ee_elsewhere1_elsewhere2':
+    'leftbase_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'leftbase_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'leftbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_top_rightbase_elsewhere2':
+    'ee_top_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_top_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_top_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_elsewhere2_rightbase_elsewhere1':
+    'ee_elsewhere2_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'ee_elsewhere2_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'drop'
+  'top_ee_elsewhere1_elsewhere2':
+    'top_ee_elsewhere1_rightbase':
+      symbols:
+        - 'transfer'
+    'top_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'top_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'drop'
+  'ee_leftbase_rightbase_elsewhere2':
+    'ee_leftbase_rightbase_elsewhere1':
+      symbols:
+        - 'transfer'
+    'ee_leftbase_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere1_ee_rightbase_elsewhere2':
+    'elsewhere1_ee_rightbase_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere1_ee_rightbase_top':
+      symbols:
+        - 'transfer'
+    'elsewhere1_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'drop'
+  'elsewhere2_ee_elsewhere1_rightbase':
+    'elsewhere2_ee_elsewhere1_leftbase':
+      symbols:
+        - 'transfer'
+    'elsewhere2_ee_elsewhere1_top':
+      symbols:
+        - 'transfer'
+    'elsewhere2_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'drop'
+  'elsewhere1_rightbase_leftbase_elsewhere1':
+    'elsewhere1_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'ee_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_elsewhere1_elsewhere1':
+    'elsewhere2_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_rightbase_rightbase':
+    'elsewhere2_top_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_ee_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_rightbase_leftbase':
+    'elsewhere2_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_rightbase_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_rightbase_top':
+    'elsewhere2_top_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_rightbase_top':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_elsewhere1_elsewhere1':
+    'top_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_leftbase_rightbase':
+    'elsewhere1_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_leftbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_leftbase_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_rightbase_rightbase':
+    'elsewhere1_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_ee_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_elsewhere1_leftbase':
+    'leftbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_elsewhere1_top':
+    'top_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_top_elsewhere1':
+    'elsewhere1_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'ee_rightbase_top_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_rightbase_rightbase':
+    'elsewhere2_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_ee_rightbase':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_elsewhere1_elsewhere1':
+    'leftbase_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_ee_elsewhere1':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_top_rightbase':
+    'elsewhere1_rightbase_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_top_top':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_top_rightbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_leftbase_leftbase':
+    'elsewhere1_rightbase_leftbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_leftbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_ee_leftbase':
+      symbols:
+        - 'grab'
+  'elsewhere1_rightbase_top_top':
+    'elsewhere1_rightbase_top_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_top_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_rightbase_ee_top':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_elsewhere1_elsewhere2':
+    'elsewhere2_rightbase_elsewhere1_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'ee_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'leftbase_elsewhere2_elsewhere1_elsewhere2':
+    'leftbase_elsewhere2_elsewhere1_leftbase':
+      symbols:
+        - 'transit'
+    'leftbase_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'leftbase_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_top_rightbase_elsewhere2':
+    'elsewhere2_top_rightbase_top':
+      symbols:
+        - 'transit'
+    'elsewhere2_top_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_top_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_rightbase_elsewhere1':
+    'elsewhere1_elsewhere2_rightbase_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'grab'
+  'top_elsewhere2_elsewhere1_elsewhere2':
+    'top_elsewhere2_elsewhere1_top':
+      symbols:
+        - 'transit'
+    'top_elsewhere2_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'top_ee_elsewhere1_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_leftbase_rightbase_elsewhere2':
+    'elsewhere2_leftbase_rightbase_leftbase':
+      symbols:
+        - 'transit'
+    'elsewhere2_leftbase_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'ee_leftbase_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere1_elsewhere2_rightbase_elsewhere2':
+    'elsewhere1_elsewhere2_rightbase_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere1_elsewhere2_rightbase_rightbase':
+      symbols:
+        - 'transit'
+    'elsewhere1_ee_rightbase_elsewhere2':
+      symbols:
+        - 'grab'
+  'elsewhere2_rightbase_elsewhere1_rightbase':
+    'elsewhere2_rightbase_elsewhere1_elsewhere2':
+      symbols:
+        - 'transit'
+    'elsewhere2_rightbase_elsewhere1_elsewhere1':
+      symbols:
+        - 'transit'
+    'elsewhere2_ee_elsewhere1_rightbase':
+      symbols:
+        - 'grab'
